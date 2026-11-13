@@ -1,0 +1,17 @@
+{
+  "name": "ShowPulse Movie Alerts",
+  "short_name": "ShowPulse",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0c0c12",
+  "theme_color": "#101018",
+  "description": "Track BookMyShow movies and receive ticket availability alerts.",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

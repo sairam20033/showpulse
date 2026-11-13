@@ -1,0 +1,7 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+body { @apply bg-ink text-zinc-100 font-sans antialiased; }
+.field { @apply w-full rounded-lg bg-raised border border-line px-3 py-2 text-sm outline-none focus:border-violet focus-visible:ring-2 focus-visible:ring-violet/40; }
+.btn { @apply inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2 text-sm font-medium transition-colors focus-visible:ring-2 focus-visible:ring-violet/60 outline-none; }
+.btn-primary { @apply btn bg-violet text-ink hover:bg-violet/90; }
+.btn-ghost { @apply btn border border-line text-zinc-200 hover:bg-raised; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
